@@ -54,6 +54,29 @@ apt install docker.io -y
 ```bash
 docker run --name sonarqube-custom -p 9000:9000 sonarqube:10.6-community
 ```
+### Git Clone
+```sh
+git clone https://github.com/Rohit-1920/EasyCRUD.git
+```
+### Update the pom.xml with sonarqube dependancy
+```sh
+cd EasyCRUD/backend/
+```
+```sh
+ls
+```
+```sh
+rm pom.xml
+```
+```sh
+ls
+```
+```sh
+nano pom.xml
+```
+### pom.xml with Sonar Maven Plugin
+👉 [maven sonar plugin](https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin)
+
 
 ## 4. Access Jenkins & SonarQube
 - Jenkins: `http://<jenkins-public-ip>:8080`
@@ -99,8 +122,6 @@ docker run --name sonarqube-custom -p 9000:9000 sonarqube:10.6-community
       - Authentication Token: `sonar-token`
   - Save changes
 **Note (optional)**: After configuring, restart the Jenkins server to ensure it operates smoothly. (http://<jenkins-public-ip>:8080/restart)
-
-### Update the pom.xml with sonarqube dependancy
 
 ## 7. Create Jenkins Pipeline
 1. Go to Dashboard → New Item → Pipeline
