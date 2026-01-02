@@ -65,6 +65,10 @@ cd EasyCRUD/backend/
 ```sh
 ls
 ```
+
+### pom.xml with Sonar Maven Plugin
+👉 [maven sonar plugin](https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin)
+
 ```sh
 rm pom.xml
 ```
@@ -74,9 +78,6 @@ ls
 ```sh
 nano pom.xml
 ```
-### pom.xml with Sonar Maven Plugin
-👉 [maven sonar plugin](https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin)
-
 
 ## 4. Access Jenkins & SonarQube
 - Jenkins: `http://<jenkins-public-ip>:8080`
