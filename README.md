@@ -30,10 +30,6 @@ Follow official Jenkins documentation
 ```bash
 apt install maven -y
 ```
-### Install Docker
-```bash
-apt install docker.io -y
-```
 
 ## 3. Setup SonarQube EC2 Server
 
