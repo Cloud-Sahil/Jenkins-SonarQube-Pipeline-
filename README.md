@@ -16,10 +16,7 @@ sudo -i
 ```sh
 apt update
 ```
-### Install Java 17
-```bash
-apt install openjdk-17-jdk -y
-```
+### Install Java 
 
 ### Install Jenkins
 
