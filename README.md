@@ -48,7 +48,7 @@ apt install docker.io -y
 ```
 ### Run SonarQube
 ```bash
-docker run -d --name sonarqube-custom -p 9000:9000 sonarqube:10.6-community
+docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 ```
 ### Git Clone
 ```sh
