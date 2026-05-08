@@ -16,6 +16,11 @@ sudo -i
 ```sh
 apt update
 ```
+### Install Maven
+```bash
+apt install maven -y
+```
+
 ### Install Java 
 
 ### Install Jenkins
@@ -23,10 +28,7 @@ apt update
 Follow official Jenkins documentation
 👉 [Jenkins Installation](https://www.jenkins.io/doc/book/installing/linux/)
 
-### Install Maven
-```bash
-apt install maven -y
-```
+
 
 ## 3. Setup SonarQube EC2 Server
 
